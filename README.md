@@ -10,7 +10,7 @@
 	</p>
 	<h2> Pau Quiz</h2>
 	Creating the project Quiz, using the HTML5, CSS3 and JavaScript. <br>
-	I create this game based in course in YouTube: <a hraf="https://www.youtube.com/watch?v=BOQLbu_Crc0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=6">
+	I create this game based in course in YouTube: <a hraf="https://www.youtube.com/watch?v=BOQLbu_Crc0&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=6"
 	target="_blank">Tutorial</a>
 </p>
 <hr>
