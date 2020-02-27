@@ -16,6 +16,11 @@ git nota "Principal page of the quiz game project"
 git sube
 echo "-------------------------------------------"
 echo ""
+git add  app.*
+git nota "Principal CSS page of the quiz game project"
+git sube
+echo "-------------------------------------------"
+echo ""
 git add game.*
 git nota "Game page of the quiz project"
 git sube
