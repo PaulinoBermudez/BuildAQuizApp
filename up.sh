@@ -26,6 +26,21 @@ git nota "Score page of the quiz project"
 git sube
 echo "-------------------------------------------"
 echo ""
+git add logo.jpg
+git nota "Logo"
+git sube
+echo "-------------------------------------------"
+echo ""
+git README.md
+git nota "Introduction for this project - Pau Quiz"
+git sube
+echo "-------------------------------------------"
+echo ""
+git add .
+git nota "Other files for this project"
+git sube
+echo "-------------------------------------------"
+echo ""
 git add up.sh
 git nota "Update the repository in GitHub"
 git sube
@@ -36,8 +51,19 @@ echo "| Fin de ejecución del script - Actualizando repo. |"
 echo "+--------------------------------------------------+"
 read -p "Pulse ENTER para salir" salir
 clear
+echo "==================================================="
+git status
+echo "==================================================="
+sleep 4
+clear
 sleep 2
-echo "再见"
-sleep 5
+echo ""
+echo "		再见"
+echo "__________________________"
+echo "	 © Human Computing ® "
+echo "	█║▌│█│║▌║││█║▌║▌║█║▌│█"
+echo "__________________________"
+echo ""
+sleep 2
 clear
 
