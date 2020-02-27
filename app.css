@@ -1,14 +1,14 @@
 :root {
-    background-color: rgb(35, 35, 35);
+    background-color: #ecf5ff;
     font-size:  62.5%;
 }
 
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
-    color: gray;
+    margin: 1%;
+    padding: 0.5%;
+    color: #333;
 }
 
 h1,h2,h3,h4,h5{
@@ -38,7 +38,7 @@ h3 {
 }
 
 
-/* Herramientas */
+/* Container */
 
 .container {
     width: 100vw;
@@ -47,7 +47,8 @@ h3 {
     justify-content: center;
     align-items: center;
     max-width: 80rem;
-    margin: 0 auto;    
+    margin: 0 auto; 
+	padding: 2rem;	
 }
 
 .container > * {
@@ -61,7 +62,7 @@ h3 {
 
 .flex-center {
     justify-content: center;
-    align-items: center 
+    align-items: center;
 }
 
 
@@ -77,10 +78,10 @@ h3 {
     display: none;
 }
 
-/* BUTTONS */
+/* Buttons */
 .btn {
     font-size: 1.8rem;
-    padding: 1rem 0;
+    padding: 1rem 1rem;
     width: 20rem;
     text-align: center;
     border: 0.1rem solid #56a5eb;
@@ -92,7 +93,7 @@ h3 {
   
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(30, 164, 231, 0.5);
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
     transform: translateY(-0.1rem);
     transition: transform 150ms;
 }
