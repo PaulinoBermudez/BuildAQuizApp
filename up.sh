@@ -26,8 +26,20 @@ git nota "Game page of the quiz project"
 git sube
 echo "-------------------------------------------"
 echo ""
-git add score.*
+git add highscores.*
 git nota "Score page of the quiz project"
+git sube
+echo "-------------------------------------------"
+echo ""
+git add end.*
+git nota "Finish page of the quiz project"
+git sube
+echo "-------------------------------------------"
+echo ""
+echo "-------------------------------------------"
+echo ""
+git add question.*
+git nota "Question page of the quiz project"
 git sube
 echo "-------------------------------------------"
 echo ""
@@ -71,4 +83,3 @@ echo "			_________________________________"
 echo ""
 sleep 4
 clear
-
