@@ -16,8 +16,8 @@
 <hr>
 <pre>
 	<h4> @Title: Quiz-Project with JavaScript </h4>
-	<h5> @Description: Design and build Quiz App, include multiple choice, true or false and drag and drop images and text. 
-	These questions are kept in the Question bank and can be re-used in different quizzes. </h5>
+	<strong> @Description: </strong> Design and build Quiz App, include multiple choice, true or false and drag and drop images and text. 
+	These questions are kept in the Question bank and can be re-used in different quizzes. 
 	<h5>@Author: Chunche95</h5>
 	<img width="30" height="30"  src="logo.jpg"
 </pre>
