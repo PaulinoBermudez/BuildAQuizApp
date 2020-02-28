@@ -1,7 +1,6 @@
 [
   {
-	/* 1 question */
-    question: "Inside which HTML element do we put the JavaScript??",
+	question: "Inside which HTML element do we put the JavaScript??",
     choice1: "<script>",
     choice2: "<javascript>",
     choice3: "<js>",
@@ -9,8 +8,7 @@
     answer: 1
   },
   {
-    /* 2 question */
-	question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
+    question: "What is the correct syntax for referring to an external script called 'xxx.js'?",
     choice1: "<script href='xxx.js'>",
     choice2: "<script name='xxx.js'>",
     choice3: "<script src='xxx.js'>",
@@ -18,8 +16,7 @@
     answer: 3
   },
   {
-	/* 3 question */
-    question: " How do you write 'Hello World' in an alert box?",
+	question: " How do you write 'Hello World' in an alert box?",
     choice1: "msgBox('Hello World');",
     choice2: "alertBox('Hello World');",
     choice3: "msg('Hello World');",
@@ -27,7 +24,6 @@
     answer: 4
   },
   {
-	/* 4 question */
 	question: "What is Elvis Presley s middle name?",
 	choice1: "Scott",
     choice2: "Logan",
@@ -36,7 +32,6 @@
 	answer: 3
   },
   {
-	/* 5 question */
 	question: "Which group did have a hit with the Macarena?",
 	choice1: "Michael Jackson",
     choice2: "Jukebox Fenty",
@@ -45,7 +40,6 @@
 	answer: 4
   },
   {
-	/* 6 question */
 	question: "In which Spanish city did the Joan Miro museum open in 1975?",
 	choice1: "Madrid",
     choice2: "Valencia",
@@ -54,7 +48,6 @@
 	answer: 3
   },
   {
-	/* 7 question */
 	question: "In which English town did Adolf Hitler study art?",
 	choice1: "London",
     choice2: "Liverpool",
@@ -63,7 +56,6 @@
 	answer: 2
   },
   {
-	/* 7 question */
 	question: "Who was the original author of Dracula?",
 	choice1: "Gustave Eiffel",
     choice2: "Michelangelo",
@@ -72,7 +64,6 @@
 	answer: 3
   },
   {
-	/* 8 question */
 	question: "Which device do we use to look at the stars?",
 	choice1: "Telescope",
     choice2: "Lens",
@@ -81,7 +72,6 @@
 	answer: 1
   },
   {
-	/* 9 question */
 	question: "Who invented the barometer?",
 	choice1: "Torricelli",
     choice2: "James Watt",
@@ -90,7 +80,6 @@
 	answer: 1
   },
   {
-	/* 10 question */
 	question: "What is the name of the infamous novel by Vladimir Nabokov?",
 	choice1: "Isis",
     choice2: "Frankenstein",
