@@ -1,9 +1,15 @@
+/*
+ * Style game page 
+ /*
+
 /* Constants in the program */
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const progressText = document.getElementById("progressText");
 const scoreText = document.getElementById("score");
 const progressBarFull = document.getElementById("progressBarFull");
+const loader = document.getElementById("loader");
+const game = document.getElementById("game");
 
 /* Variables inicialized */
 let currentQuestion = {};
@@ -15,23 +21,42 @@ let availableQuesions = [];
 /* Questions and the answer */
 let questions = [];
 
-fetch("question.json")
+fetch("https://opentdb.com/api.php?amount=11&type=multiple")
 	.then(res => {
 		return res.json();
-	}
-	)
-	.thenloadedQuestions => {
+	})
+	.then(loadedQuestions => {
 		console.log(loadedQuestions);
-		questions = loadedQuestions;
-		startGame();
-	}
-	)
+		questions = loadedQuestions.results.map(loadedQuestion => {
+			const formattedQuestion = {
+				question: loadedQuestion.question
+			};
+		
+		const answerChoices = [...loadedQuestion.incorrect_answers];
+			formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
+			answerChoices.splice(
+				formattedQuestion.answer - 1,
+				0,
+				loadedQuestion.correct_answer
+			);
+
+			answerChoices.forEach((choice, index) => {
+				formattedQuestion["choice" + (index + 1)] = choice;
+			});
+
+		return formattedQuestion;
+    });
+
+    startGame();
+  })
+  
 	.catch(err => {
 		console.error(err);
 	});
+	
 /* Constants */
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 5;
+const MAX_QUESTIONS = 10;
 
 /* Start the game function */
 startGame = () => {
@@ -40,11 +65,14 @@ startGame = () => {
   availableQuesions = [...questions];
   //console.log(availableQuesions);
   getNewQuestion();
+  game.classList.remove("hidden");
+  loader.classList.add("hidden");
 };
 
 /* Function New Question, this function select the next quiz */
 getNewQuestion = () => {
   if (availableQuesions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+	localStorage.setItem("mostRecentScore", score);
     //go to the end page
     return window.location.assign("end.html");
   }

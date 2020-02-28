@@ -1,3 +1,7 @@
+/*
+ *  Style at the game page
+ */
+
 .choice-container {
     display: flex;
     margin-bottom: 0.5rem;
@@ -61,7 +65,6 @@
   background-color: #00a5eb45;
   width: 0%;
 }
-
 
 /* Loader */
 #loader {
